@@ -1,8 +1,10 @@
 package com.company;
 
-// "Fenwick" or "Binary Indexed" Tree
-// Useful for prefix sum, where insertion would require recalculating existing sums
-// log(n) for both update, and sum calculation
+/**
+ *  "Fenwick" or "Binary Indexed" Tree
+ *  Useful for prefix sum, where insertion would require recalculating existing sums
+ *  log(n) for both update, and sum calculation
+ */
 public class BITree {
     int[] tree;
     int[] a;
